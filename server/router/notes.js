@@ -84,7 +84,7 @@ router.post('/addnote', fetchuser, [
             res.json({"Success":"notes has been delete"})
         } catch (error) {
             console.error(error.message);
-            res.status(500).send("Internal Server Error");
+            res.status(500).send("Internal Server Error 500");
         }
    })
      
